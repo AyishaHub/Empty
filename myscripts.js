@@ -6,4 +6,4 @@ window.addEventListener('load',()=>{
             emptiness.innerHTML=navLink.value;
         })
     });
-    })
+    });
