@@ -6,4 +6,11 @@ window.addEventListener('load', () => {
       document.getElementById('txt').value = i.innerText;
     });
   });
+   navList.forEach(menu => {
+    menu.addEventListener('click', () => {
+      // eslint-disable-next-line no-undef
+      buttons.forEach(btn => btn.classList.remove('active'))
+      this.classList.add('active')
+    })
+  })
 });
