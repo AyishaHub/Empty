@@ -62,6 +62,15 @@ li:hover::before,
 li:focus::before {
   transform: scaleX(1);
 }
+li:active{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #3c3735;
+  border-right: solid 6px #df4500;
+  z-index: -1;
+}
 li {
   z-index: 1;
 }
